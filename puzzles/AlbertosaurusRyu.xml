@@ -1,0 +1,28 @@
+<ZTPuzzle animal="AlbertosaurusRyu" level="5" piecesPerLocation="1">
+  <pieces>
+    <ZTPuzzlePiece texture="01_JawUpper" node="Piece01" entityScale="0.62" />
+    <ZTPuzzlePiece texture="02_Head" node="Piece02" entityScale="0.31" />
+    <ZTPuzzlePiece texture="03_JawLower" node="Piece03" entityScale="0.62" />
+    <ZTPuzzlePiece texture="04_Neck1" node="Piece04" entityScale="0.62" />
+    <ZTPuzzlePiece texture="05_Neck2" node="Piece05" entityScale="0.62" />
+    <ZTPuzzlePiece texture="06_UpperArms" node="Piece06" entityScale="0.31"/>
+    <ZTPuzzlePiece texture="07_LowerArms" node="Piece07" entityScale="0.62" />
+    <ZTPuzzlePiece texture="08_RibCage1" node="Piece08" entityScale="1.24" />
+    <ZTPuzzlePiece texture="09_RibCage2" node="Piece09" entityScale="0.62" />
+    <ZTPuzzlePiece texture="10_Pelvis" node="Piece10" entityScale="0.62" />
+    <ZTPuzzlePiece texture="11_LegsUpper" node="Piece11" entityScale="1.24" />
+    <ZTPuzzlePiece texture="12_LegLeftLower" node="Piece12" entityScale="0.62"/>    
+    <ZTPuzzlePiece texture="13_LegLeftFootUpper" node="Piece13" entityScale="0.62" />
+    <ZTPuzzlePiece texture="14_LegLeftFootLower" node="Piece14" entityScale="0.62" />
+    <ZTPuzzlePiece texture="15_LegRightLower" node="Piece15" entityScale="0.62" />
+    <ZTPuzzlePiece texture="16_LegRightFootUpper" node="Piece16" entityScale="0.62" />
+    <ZTPuzzlePiece texture="17_LegRightFootMid" node="Piece17" entityScale="0.62" />
+    <ZTPuzzlePiece texture="18_LegRightFootLower" node="Piece18" entityScale="0.62"/>
+    <ZTPuzzlePiece texture="19_TailBase" node="Piece19" entityScale="0.62" />
+    <ZTPuzzlePiece texture="20_Tail1" node="Piece20" entityScale="0.62" />
+    <ZTPuzzlePiece texture="21_Tail2" node="Piece21" entityScale="0.62" />
+    <ZTPuzzlePiece texture="22_Tail3" node="Piece22" entityScale="0.62" />
+    <ZTPuzzlePiece texture="23_Tail4" node="Piece23" entityScale="0.62" />
+    <ZTPuzzlePiece texture="24_TailEnd" node="Piece24" entityScale="0.62"/>  
+  </pieces>
+</ZTPuzzle>

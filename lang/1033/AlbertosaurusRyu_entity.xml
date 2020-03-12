@@ -1,0 +1,119 @@
+<ZT2Strings>
+      <LOC_STRING _locID="entityname:AlbertosaurusRyu"  >Albertosaurus</LOC_STRING>
+      <LOC_STRING _locID="entityname:AlbertosaurusRyu_stt"  >Albertosaurus</LOC_STRING>
+      <LOC_STRING _locID="entityname:AlbertosaurusRyu_lower"  >the albertosaurus</LOC_STRING>
+      <LOC_STRING _locID="entityname:AlbertosaurusRyu_ltt"  >
+         <color r="255" g="248" b="178">
+            <b>Albertosaurus</b>
+         </color>
+
+         <br/>
+         
+         
+         Click to select and then place an albertosaurus.
+      
+      
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_albertosaurusryu:entry"  >Albertosaurus</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_albertosaurusryu:text"  >
+         <cell pady="0" width="1000"/>
+         <p/>
+         <cell width="260"/>
+         <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+            <cell width="600" padx="20" pady="20">
+            
+               <cell width="284">
+						<cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+							<img src="entities/units/animals/AlbertosaurusRyu/AlbertosaurusRyu_Adult_F_icon.dds" sx="0" sy="0" sw="64" sh="64" width="96" height="96"/>
+						</cell>	
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>						 
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/extinct.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="255" b="255">
+                     Extinct
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>                        
+				 <cell width="128">
+				  <color r="255" g="255" b="255">Boreal Forest<br/></color>
+				  <img src="ui/icon_biomes/icon_borealforest.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+				 </cell>
+               <cell width="128">
+                  <color r="255" g="255" b="255">North America</color>
+                  <br/>
+                  <img src="ui/icon_maplocations/Cretaceous_America_Boreal.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+               </cell>
+               <br/>
+               <cell width="284" pady="10">
+                  <color r="255" g="255" b="255">
+                  Class: <i>Reptilia</i>
+                  <br/>
+                  Order: <i>Saurischia</i>
+                  <br/>
+                  Family: <i>Tyrannosauridae</i>
+                  <br/>
+                  Genus: <i>Albertosaurus</i>
+                  <br/>
+                  Species: <i>sarcophagus</i>
+                  </color>
+               </cell>
+				 <cell width="256" pady="10">
+				  <img src="UI/zoopedia/biome/borealforest_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+				 </cell>				 
+            </cell>
+         </cell>
+         <p/>
+         <p/>
+         <cell width="260"/>
+         <cell width="300">
+            <cell width="64">
+               <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+            </cell>
+            <cell width="176">
+               <color r="255" g="255" b="255">
+                  <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Albertosaurus Facts</font>
+               </color>
+            </cell>
+            <p/>
+            <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+               <p/>
+               <cell width="32" pady="10">
+                  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+               </cell>
+               <cell width="202" pady="10">
+                  <color r="255" g="255" b="255">Hunger and desperation may have driven Albertosaurus to cannibalism.</color>
+               </cell>
+               <br/>
+               <cell width="32" pady="10">
+                  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+               </cell>
+               <cell width="202" pady="10">
+                  <color r="255" g="255" b="255">Juvenile individuals may have formed packs for protection and to increase hunting efficiency.</color>
+               </cell>               
+            </cell>
+         </cell>
+         <cell width="340">
+            <color r="255" g="248" b="178">To unlock the Albertosaurus in challenge or campaign games, you must earn a 4 1/2-star zoo fame rating for your zoo.</color>
+            <p/>Albertosaurus is a genus of tyrannosaurid theropod dinosaur that lived in western North America during the Late Cretaceous Period, more than 70 million years ago. The type species, A. sarcophagus, was restricted in range to the modern day Canadian province of Alberta, after which the genus is named. Scientists disagree on the content of the genus, with some recognizing Gorgosaurus libratus as a second species.
+	    <p/>As a tyrannosaurid, Albertosaurus was a bipedal predator with tiny, two-fingered hands and a massive head with dozens of large, sharp teeth. It may have been at the top of the food chain in its local ecosystem. Although relatively large for a theropod, Albertosaurus was much smaller than its more famous relative Tyrannosaurus, probably weighing less than 2 metric tons.
+	    <p/>Fossils of more than thirty individuals have been recovered, providing scientists with a more detailed knowledge of Albertosaurus anatomy than is available for most other tyrannosaurids. The discovery of 22 individuals at one site provides evidence of pack behavior and allows studies of ontogeny and population biology which are impossible with lesser known dinosaurs.
+         </cell>
+         <p/>
+         <cell width="260"/>
+         <cell width="620">Albertosaurus created by RyuKami. Source: http://en.wikipedia.org.
+         </cell>         
+      </LOC_STRING>
+</ZT2Strings>
