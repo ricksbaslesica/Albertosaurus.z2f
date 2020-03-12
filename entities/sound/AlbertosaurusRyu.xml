@@ -1,0 +1,724 @@
+<soundtags>
+   <!--ADULT-->
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_DrownIdle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Drown_Idle.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Sleep_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Sleep_Idle.wav" volume=".6" mindist="10" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_Yawn">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_Yawn.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Lie_Yawn">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Lie_Yawn.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Eat_Tug">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Eat_Tug.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Eat_Chew">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Eat_Chew.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Eat_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Eat_Idle.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Eat_ScratchFood">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Eat_ScratchFood.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Eat_Tear">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Eat_Tear.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_FeedYoung">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_FeedYoung.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_BeLicked">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_BeLicked.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_LayNest">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_LayNest.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_Sneeze">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_Sneeze.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Lie_Sneeze">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Lie_Sneeze.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_RubObjectHead">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_RubObjectHead.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_RubObject">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_RubObject.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_ScratchFace">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_ScratchFace.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_DustBathe">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_DustBathe.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_GroomOther">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_GroomOther.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_CallYoung">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_CallYoung.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_MatingCall">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_MatingCall.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_TendNestA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_TendNestA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_TendNestB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_TendNestB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_RoarA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_RoarA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_RoarB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_RoarB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_ThreateningRoar">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_ThreateningRoar.wav" volume="1.5" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_GrowlA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_GrowlA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_GrowlB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_GrowlB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_Bite">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_Bite.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_BiteLow">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_BiteLow.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_BiteQuick">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_BiteQuick.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_BiteVicious">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_BiteVicious.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_2JawLock">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_2JawLock.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_JawLock_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_JawLock_Idle.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_JawLock_Push">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_JawLock_Push.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_JawLock_KnockBack">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_JawLock_KnockBack.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_JawLock_2Stand">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_JawLock_2Stand.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_JawLock_2LieSide">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_JawLock_2LieSide.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_KickLeft">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_KickLeft.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_KickRight">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_KickRight.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_HeadSlamLeft">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_HeadSlamLeft.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_HeadSlamRight">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_HeadSlamRight.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_Sniff">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_Sniff.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_Sniff">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_Sniff.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Lie_Sniff">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Lie_Sniff.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_GuestAttack">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_GuestAttack.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <!--YOUNG-->
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_DrownIdle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Drown_Idle.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Sleep_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Sleep_Idle.wav" volume=".8" mindist="4" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_Yawn">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_Yawn.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Lie_Yawn">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Lie_Yawn.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Eat_Tug">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Eat_Tug.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Eat_Chew">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Eat_Chew.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Eat_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Eat_Idle.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Eat_ScratchFood">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Eat_ScratchFood.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Eat_Tear">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Eat_Tear.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_FeedYoung">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_FeedYoung.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_BeLicked">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_BeLicked.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_LayNest">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_LayNest.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_Sneeze">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_Sneeze.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Lie_Sneeze">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Lie_Sneeze.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_RubObjectHead">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_RubObjectHead.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_RubObject">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_RubObject.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_ScratchFace">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_ScratchFace.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_DustBathe">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_DustBathe.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_GroomOther">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_GroomOther.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_CallYoung">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_CallYoung.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_MatingCall">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_MatingCall.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_RoarCallPackYoung">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_CallPack.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_TendNestA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_TendNestA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_TendNestB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_TendNestB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_RoarA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_RoarA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_RoarB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_RoarB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_ThreateningRoar">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_ThreateningRoar.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_GrowlA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_GrowlA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_GrowlB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_GrowlB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_Bite">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_Bite.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_BiteLow">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_BiteLow.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_BiteQuick">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_BiteQuick.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_BiteVicious">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_BiteVicious.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_2JawLock">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_2JawLock.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_JawLock_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_JawLock_Idle.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_JawLock_Push">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_JawLock_Push.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_JawLock_KnockBack">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_JawLock_KnockBack.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_JawLock_2Stand">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_JawLock_2Stand.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_JawLock_2LieSide">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_JawLock_2LieSide.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_KickLeft">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_KickLeft.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_KickRight">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_KickRight.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_HeadSlamLeft">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_HeadSlamLeft.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_HeadSlamRight">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_HeadSlamRight.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_Sniff">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_Sniff.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stalk_Sniff">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_Sniff.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Lie_Sniff">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Lie_Sniff.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_GuestAttack">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_GuestAttack.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_Beg">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_Beg.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_BeFed">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_BeFed.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_LickMom">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_LickMom.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_CallMother">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_CallMother.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_PlayNipA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_PlayNipA.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_PlayNipB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_PlayNipB.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Young_Stand_PlayNipHigh">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Young_F_Stand_PlayNipHigh.wav" volume="1" mindist="20" maxdist="125"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_GetShocked">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_GetShocked.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>   
+   
+   <!--Footsteps-->
+   <!--
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_2Run">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_2Run.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_2Stand">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_2Stand.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_2Walk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_2Walk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_Ahead">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_LeftA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_LeftA.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_LeftB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_LeftB.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_RightA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_RightA.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_RightB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_RightB.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_2Charge">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_2Charge.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_2Charge">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stalk_2Charge.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_2Charge">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_2Charge.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_2Charge">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_2Charge.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Charge_2StalkPause">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Charge_2StalkPause.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Pause_2Run">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Pause_2Run.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Pause_Idle">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Pause_Idle.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_LeftA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_LeftB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_RightA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_RightB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_2Stalk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_2Stalk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_2StalkPause.wav">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_2StalkPause.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_2Stand">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_2Stand.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_2Walk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_2Walk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Run_Ahead">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Run_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_2Run">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stalk_2Run.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_2StalkPause">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stalk_2StalkPause.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_2Stand">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stalk_2Stand.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_2Walk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stalk_2Walk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stalk_Ahead">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stalk_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_2Run">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_2Run.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_2Stalk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_2Stalk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_2Walk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_2Walk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Stand_GetShocked">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Stand_GetShocked.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_StandObject_2WalkObject">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_StandObject_2WalkObject.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_2Stalk">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_2Stalk.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_2Stand">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_2Stand.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_Ahead">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_LeftA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_LeftB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_RightA">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_Ahead.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_Walk_RightB">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_Walk_LeftA.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="AlbertosaurusRyu_Adult_WalkObject_2StandObject">
+         <snd name="entities/units/animals/AlbertosaurusRyu/sound/Albertosaurus_Adult_F_WalkObject_2StandObject.wav" volume="1" mindist="15" maxdist="125" minpitch=".7" maxpitch=".9"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   -->
+   
+</soundtags>

@@ -1,0 +1,17 @@
+<BehaviorSets>
+   <AttackedAlbertosaurusRyu>
+      <subjects>
+         <Guest_Adult_M/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:InteractAnimal" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehAnimate targetAnim="Stand_Attacked_TyrannosaurusRex"/>
+         <BFBehKill killSubject="true" fadeOutPeriod="0"/>
+      </behaviors>
+   </AttackedAlbertosaurusRyu>
+</BehaviorSets>

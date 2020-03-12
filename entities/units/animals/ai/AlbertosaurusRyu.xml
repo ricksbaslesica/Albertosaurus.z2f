@@ -1,0 +1,163 @@
+<BFTypedBinder binderType="AlbertosaurusRyu" abstract="true">
+	<types>
+		<entity>
+			<actor>
+				<animal>
+					<Archosauria>
+					  <Saurischia>
+						 <Tyrannosauridae>
+							<AlbertosaurusRyu/>
+						 </Tyrannosauridae>
+					  </Saurischia>
+				   </Archosauria>
+				</animal>
+			</actor>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity entityVersion="1">
+			<physObjParenting>
+				<parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link" />
+			</physObjParenting>
+		</BFGEntity>
+	</instance>
+	<shared>
+		<ZTPlacementData icon3Doffset="0 0 1" icon3Dscale="0.2" minimumHeadroom="4.5"/>
+		<UIToggleButton template="adopt">
+			<UIAspect>
+				<default image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Adult_F_icon.dds" />
+			</UIAspect>
+			<UIHelpInfo ids="entityname:AlbertosaurusRyu" />
+			<on>
+				<event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbertosaurusRyu_Adult_F" />
+			</on>
+		</UIToggleButton>
+		<BFAIEntityDataShared f_BaseDonationAmount="120" f_MaxTourValue="85" p_FightOffset="0 -4 180" p_PreyOffset="0 1 0" p_MateOffset="-1 0 0" p_DockFence="0 -7.5 0" p_SniffFence="0 -4.5 0" s_Endangerment="Extinct" b_ExtinctAnimal="true" s_DonateToken="t_DonateAlbertosaurusRyu" s_Species="AlbertosaurusRyu" b_Elite="true" b_Carnivore="true" b_Piscivore="true" f_adoptRemoveTime="0" f_adoptRarity="100" s_Zoopedia="zoopedia:zoopedia_AlbertosaurusRyu:entry" f_RequiredInitialSpace="450" f_RequiredAdditionalSpace="60" p_PursuitBallNode="0 -1 180"  b_PursuitBallUser="true" b_PreyOffset="0 -2 0" b_DinoPreyDummyUser="true" b_CoastalAnimal="true" s_KeeperEatType="Terrain_DinoMeat" s_KeeperDrinkType="FoodDish_Water" b_TroughEater="true" b_MetalTroughEater="true" b_FoodDishEater="true" b_LargeAnimal="true" p_DinoPreyNode="0 -4 180" p_JawLock="0.25 -5.2 180" p_FeedYoungNode=".5 -3.25 180" p_AttackGuestNode="0 -2.75 180" b_BeefShankEater="true" f_TranqPointsNeeded="25.0f" b_LargeExtinctShelterUser="true">
+			<BFAINeedAdjusts privacy="0" explore=".25" />
+		</BFAIEntityDataShared>
+		<BFGBiomeData location="tropicalrainforest_cretaceous_northamerica" locationSensitivity="10">
+			<alpine sensitivity="-10" />
+			<benthic sensitivity="-10" />
+			<borealforest sensitivity="10" />
+			<coastal sensitivity="10" primary="true" />
+			<desert sensitivity="-10" />
+			<grassland sensitivity="-5" />
+			<pelagic sensitivity="-5" />
+			<reef sensitivity="10" />
+			<temperateforest sensitivity="10" />
+			<tropicalrainforest sensitivity="10" />
+			<tundra sensitivity="-10" />
+			<savannah sensitivity="-5" />
+			<scrub sensitivity="0" />
+			<wetlands sensitivity="10" />
+		</BFGBiomeData>
+		<ZTUserStaffAction>
+			<SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_wash" effect="SuperStaffWashLarge" />
+			<SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal" effect="SuperStaffHeal" />
+		</ZTUserStaffAction>
+	</shared>
+	<binder>
+		<BFNamedBinder binderName="mainObj">
+			<instance>
+				<BFPhysObj>
+					<BFShadowLODComponent numLevels="1" switchingDists="60.0" />
+					<BFActorComponent actorfile="entities/units/animals/AlbertosaurusRyu/AlbertosaurusRyu_Adult_M.bfm" pickAgainstSphereOnly="false"/>
+					<BFSecondaryAnimComponent animName="Secondary_TailTwitch" frequency="1.5" chance="40" validAnims="Stand_Idle,Pee_Idle,Poop_Idle,Chew_Idle,Eat_Drink,Eat_Idle,Stand_Click,Stand_Hiss,Stand_Scratch,Stand_Snort,Stand_TendEgg,Stand_TurnLeft90,Stand_TurnRight180,Stand_TurnRight90,Stand_Yawn" />
+					<BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 -1" ankleRotVectorRight="0 0 -1" heightOffset="0" fitRadius=".15" frontBuoyancyNode="Node_Buoy" backBuoyancyNode="Node_Buoy_Back" maxRollError=".33" />
+					<BFForwardMovingComponent />
+					<BFRotYawMovingComponent />
+					<BFCollisionComponent grid="Bip01 Spine1,Bip01 Head,Bip01 Tail" />
+					<BFGridCollisionComponent />
+					<BFHeadLookComponent leftRightAnimName="Secondary_Headlook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0" />
+					<BFDecalTextureCycleComponent materialName="AlbertosaurusRyu_Adult_F">
+						<Step imageName="entities/units/animals/shared/tiger_blink_blank.dds" hold="3.0" variance="0.5" />
+						<Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance="" />
+						<Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance="" />
+						<Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance="" />
+					</BFDecalTextureCycleComponent>
+				</BFPhysObj>
+			</instance>
+			<shared>
+				<BFTextTagMacrosComponent>
+					<MACROS>
+						<macro name="Walky" text="anim &apos;Walk_Ahead&apos;" />
+						<macro name="Walky2Standy" text="anim &apos;Walk_2Stand&apos;, anim&apos;Stand_Idle&apos;" />
+						<macro name="Stand2LieBelly" text="anim &apos;Stand_2Lie&apos;, anim &apos;Lie_Idle&apos;" />
+						<macro name="LieBelly2Stand" text="anim &apos;Lie_2Stand&apos;, anim &apos;Stand_Idle&apos;" />
+						<macro name="Standy2Walky" text="anim &apos;Stand_2Walk&apos;, anim &apos;Walk_LeftA&apos;" />
+						<macro name="LieOnBelly" text="anim &apos;Lie_Idle&apos;" />
+					</MACROS>
+				</BFTextTagMacrosComponent>
+				<BFSharedPhysVars isWaterDisplacer="true" waterDisplacement="0.25 0.5 0.25">
+					<virtualNodes>
+						<Dock_FoodDish x="0" y="-3" z="0" yaw="0" pitch="0" roll="0" />
+						<Dock_Building x="0" y="-3" z="0" yaw="0" pitch="0" roll="0" />
+					</virtualNodes>
+				</BFSharedPhysVars>
+			</shared>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFBehaviorMgr behaviorVersion="1">
+					<subBehaviors>
+						<BFBehAnimate interruptible="true" targetAnim="Stand_Idle" interruptFlag="true" loopFlag="true" />
+					</subBehaviors>
+				</BFBehaviorMgr>
+			</instance>
+		</BFBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFLocomotionMgr />
+			</instance>
+			<binder>
+				<BFNamedBinder binderName="ground" required="1">
+					<instance>
+						<BFLocoAnimate version="1">
+							<stop name="Stand" />
+							<slow name="Walk" minAnimSpeed="1.333" maxAnimSpeed="1.333"/>
+							<medium name="Walk" minAnimSpeed="1.6" maxAnimSpeed="2" />
+							<fast name="Run" minAnimSpeed="1.333" maxAnimSpeed="1.333"/>
+							<stalk name="Stalk"minAnimSpeed="1.333" maxAnimSpeed="1.333"/>
+							<evade name="Run" minAnimSpeed="1.06" maxAnimSpeed="1.866" />
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+				<BFNamedBinder binderName="groundcarry" required="1">
+					<instance>
+						<BFLocoAnimate version="1" stationaryAnim="StandObject_Idle">
+							<stop name="StandObject" />
+							<slow name="WalkObject" minAnimSpeed="1.333" maxAnimSpeed="1.333"/>
+							<medium name="WalkObject" minAnimSpeed="1.333" maxAnimSpeed="1.333"/>
+							<fast name="WalkObject" minAnimSpeed="1.333" maxAnimSpeed="1.333"/>
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+			</binder>
+		</BFBinder>
+		<BFNamedBinder binderName="foodprop" repopulateMethod="byName" required="1">
+			<instance>
+				<BFGEntityContainer>
+					<slots>
+						<BFGEntityContainerSlot ownContents="false" hideContents="false" capacity="1" />
+					</slots>
+				</BFGEntityContainer>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="mouth" required="1">
+			<instance>
+				<BFGEntityContainer>
+					<slots>
+						<BFGEntityContainerSlot ownContents="false" hideContents="false" capacity="1" />
+					</slots>
+				</BFGEntityContainer>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder>
+			<instance>
+				<ZTEconomyComponent cost="80000">
+					<ZTTransaction name="build" costType="parent" type="debit" category="animal" />
+				</ZTEconomyComponent>
+			</instance>
+		</BFBinder>
+	</binder>
+</BFTypedBinder>

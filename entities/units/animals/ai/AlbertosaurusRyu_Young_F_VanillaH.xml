@@ -1,0 +1,77 @@
+<BFTypedBinder binderType="AlbertosaurusRyu_Young_F_VanillaH">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Archosauria>
+                  <Saurischia>
+                     <Tyrannosauridae>
+                        <AlbertosaurusRyu>
+                           <AlbertosaurusRyu_Young>
+                              <AlbertosaurusRyu_Young_F>
+                              	<AlbertosaurusRyu_Young_F_VanillaH/>
+                              </AlbertosaurusRyu_Young_F>
+                           </AlbertosaurusRyu_Young>
+                        </AlbertosaurusRyu>
+                     </Tyrannosauridae>
+                  </Saurischia>
+               </Archosauria>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <binder>
+	<BFNamedBinder binderName="mainObj">
+		<instance>
+			<BFPhysObj>
+				<BFActorComponent actorfile="entities/units/animals/AlbertosaurusRyu/AlbertosaurusRyu_Young_F.bfm" scale="0.25" />
+			</BFPhysObj>
+		</instance>
+	</BFNamedBinder>
+		<BFNamedBinder binderName="texController" required="1">
+			<instance>
+				<BFAITextureController currState="well" defaultState="well">
+					<attribList>
+						<health />
+						<hygiene />
+					</attribList>
+					<stateList>
+						<sickanddirty>
+							<attribData>
+								<health minRange="70" maxRange="101" />
+								<hygiene minRange="70" maxRange="101" />
+							</attribData>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_VanillaH_Sick_Dirty.dds" />
+							</textureData>
+						</sickanddirty>
+						<sick>
+							<attribData>
+								<health minRange="70" maxRange="101" />
+							</attribData>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_VanillaH_Sick.dds" />
+							</textureData>
+						</sick>
+						<dirty>
+							<attribData>
+								<hygiene minRange="70" maxRange="101" />
+							</attribData>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_VanillaH_Dirty.dds" />
+							</textureData>
+						</dirty>
+						<well>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_VanillaH.dds" />
+							</textureData>
+						</well>
+					</stateList>
+				</BFAITextureController>
+			</instance>
+		</BFNamedBinder>
+   </binder>
+</BFTypedBinder>

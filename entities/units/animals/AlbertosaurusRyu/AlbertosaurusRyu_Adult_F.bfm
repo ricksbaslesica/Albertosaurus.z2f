@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BFM modelname="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Adult_F.nif">
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_2Run.bf" animName="Charge_2Run" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_2Stalk.bf" animName="Charge_2Stalk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_2StalkPause.bf" animName="Charge_2StalkPause" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_2Stand.bf" animName="Charge_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_2Walk.bf" animName="Charge_2Walk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_Ahead.bf" animName="Charge_Ahead" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_LeftA.bf" animName="Charge_LeftA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_LeftB.bf" animName="Charge_LeftB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_RightA.bf" animName="Charge_RightA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Charge_RightB.bf" animName="Charge_RightB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Crouch_BeLicked.bf" animName="Crouch_BeLicked" debug="false" animSpeed="1" explicitUseOnly="true" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Crouch_FeedYoung.bf" animName="Crouch_FeedYoung" debug="false" animSpeed="1" explicitUseOnly="true" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Drown_2Stand.bf" animName="Drown_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Drown_Idle.bf" animName="Drown_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_2Stand.bf" animName="Eat_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_Chew.bf" animName="Eat_Chew" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_Drink.bf" animName="Eat_Drink" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_Idle.bf" animName="Eat_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_ScratchFood.bf" animName="Eat_ScratchFood" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_Tear.bf" animName="Eat_Tear" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Eat_Tug.bf" animName="Eat_Tug" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_JawLock_2LieSide.bf" animName="JawLock_2Lie" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_JawLock_2Stand.bf" animName="JawLock_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_JawLock_Idle.bf" animName="JawLock_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_JawLock_KnockBack.bf" animName="JawLock_KnockBack" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_JawLock_Push.bf" animName="JawLock_Push" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_2Sleep.bf" animName="Lie_2Sleep" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_2Stand.bf" animName="Lie_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_Idle.bf" animName="Lie_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_Listen.bf" animName="Lie_Listen" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_Look.bf" animName="Lie_Look" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_Sneeze.bf" animName="Lie_Sneeze" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_Sniff.bf" animName="Lie_Sniff" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Lie_Yawn.bf" animName="Lie_Yawn" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_2Charge.bf" animName="Run_2Charge" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_2Stalk.bf" animName="Run_2Stalk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_2StalkPause.bf" animName="Run_2StalkPause" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_2Stand.bf" animName="Run_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_2Walk.bf" animName="Run_2Walk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_Ahead.bf" animName="Run_Ahead" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_LeftA.bf" animName="Run_LeftA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_LeftB.bf" animName="Run_LeftB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_RightA.bf" animName="Run_RightA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Run_RightB.bf" animName="Run_RightB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Secondary_HandTwitch.bf" animName="Secondary_HandTwitch" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Secondary_Headlook.bf" animName="Secondary_Headlook" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Secondary_TailTwitch.bf" animName="Secondary_TailTwitch" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Sleep_2Lie.bf" animName="Sleep_2Lie" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Sleep_Idle.bf" animName="Sleep_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_2Charge.bf" animName="Stalk_2Charge" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_2Run.bf" animName="Stalk_2Run" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_2StalkPause.bf" animName="Stalk_2StalkPause" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_2Stand.bf" animName="Stalk_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_2Walk.bf" animName="Stalk_2Walk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_Ahead.bf" animName="Stalk_Ahead" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stalk_Sniff.bf" animName="Stalk_Sniff" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StalkPause_2Run.bf" animName="StalkPause_2Run" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StalkPause_2Stalk.bf" animName="StalkPause_2Stalk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StalkPause_2Stand.bf" animName="StalkPause_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StalkPause_Idle.bf" animName="StalkPause_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StalkPause_Idle2.bf" animName="StalkPause_Idle2" debug="false" animSpeed="1" explicitUseOnly="true" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Charge.bf" animName="Stand_2Charge" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Drown.bf" animName="Stand_2Drown" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Eat.bf" animName="Stand_2Eat" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2JawLock.bf" animName="Stand_2JawLock" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Lie.bf" animName="Stand_2Lie" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Run.bf" animName="Stand_2Run" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Stalk.bf" animName="Stand_2Stalk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2StandObject.bf" animName="Stand_2StandObject" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_2Walk.bf" animName="Stand_2Walk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_BeFed.bf" animName="Stand_BeFed" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_Beg.bf" animName="Stand_Beg" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_BeLicked.bf" animName="Stand_BeLicked" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Bite.bf" animName="Stand_Bite" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_BiteLow.bf" animName="Stand_BiteLow" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_BiteQuick.bf" animName="Stand_BiteQuick" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_BiteVicious.bf" animName="Stand_BiteVicious" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_CallMother.bf" animName="Stand_CallMother" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_CallYoung.bf" animName="Stand_CallYoung" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_DustBathe.bf" animName="Stand_DustBathe" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_FeedYoung.bf" animName="Stand_FeedYoung" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_GetShocked.bf" animName="Stand_GetShocked" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_GroomAdult.bf" animName="Stand_GroomAdult" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_GroomOther.bf" animName="Stand_GroomOther" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_GroomYoung.bf" animName="Stand_GroomYoung" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_GrowlA.bf" animName="Stand_GrowlA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_GrowlB.bf" animName="Stand_GrowlB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_GuestAttack.bf" animName="Stand_GuestAttack" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_HeadSlamLeft.bf" animName="Stand_HeadSlamLeft" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_HeadSlamRight.bf" animName="Stand_HeadSlamRight" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_KickLeft.bf" animName="Stand_KickLeft" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_KickRight.bf" animName="Stand_KickRight" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_LayNest.bf" animName="Stand_LayNest" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_LickMom.bf" animName="Stand_LickMom" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Listen.bf" animName="Stand_Listen" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Look.bf" animName="Stand_Look" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_MatingCall.bf" animName="Stand_MatingCall" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_MouthOther.bf" animName="Stand_MouthOther" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_MouthYoung.bf" animName="Stand_MouthYoung" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Pee.bf" animName="Stand_Pee" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_PlayNipA.bf" animName="Stand_PlayNipA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_PlayNipB.bf" animName="Stand_PlayNipB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_PlayNipHigh.bf" animName="Stand_PlayNipHigh" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Poop.bf" animName="Stand_Poop" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Young_F_Stand_Preen.bf" animName="Stand_Preen" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_RoarA.bf" animName="Stand_RoarA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_RoarB.bf" animName="Stand_RoarB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Adult_F_Stand_RoarC.bf" animName="Stand_RoarC" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_RubObject.bf" animName="Stand_RubObject" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_RubObjectHead.bf" animName="Stand_RubObjectHead" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_ScratchFace.bf" animName="Stand_ScratchFace" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Sneeze.bf" animName="Stand_Sneeze" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Sniff.bf" animName="Stand_Sniff" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_TendNestA.bf" animName="Stand_TendNestA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_TendNestB.bf" animName="Stand_TendNestB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_TurnLeft90.bf" animName="Stand_TurnLeft90" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_TurnRight180.bf" animName="Stand_TurnRight180" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_TurnRight90.bf" animName="Stand_TurnRight90" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Stand_Yawn.bf" animName="Stand_Yawn" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_2Stand.bf" animName="StandObject_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_2WalkObject.bf" animName="StandObject_2WalkObject" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_Idle.bf" animName="StandObject_Idle" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_ShakeObject.bf" animName="StandObject_ShakeObject" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_TurnLeft90.bf" animName="StandObject_TurnLeft90" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_TurnRight180.bf" animName="StandObject_TurnRight180" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_StandObject_TurnRight90.bf" animName="StandObject_TurnRight90" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_2Charge.bf" animName="Walk_2Charge" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_2Run.bf" animName="Walk_2Run" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_2Stalk.bf" animName="Walk_2Stalk" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_2Stand.bf" animName="Walk_2Stand" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_Ahead.bf" animName="Walk_Ahead" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_BashFence.bf" animName="Walk_BashFence" debug="false" animSpeed="1" explicitUseOnly="true" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_LeftA.bf" animName="Walk_LeftA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_LeftB.bf" animName="Walk_LeftB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_RightA.bf" animName="Walk_RightA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_Walk_RightB.bf" animName="Walk_RightB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_WalkObject_2StandObject.bf" animName="WalkObject_2StandObject" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_WalkObject_Ahead.bf" animName="WalkObject_Ahead" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_WalkObject_LeftA.bf" animName="WalkObject_LeftA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_WalkObject_LeftB.bf" animName="WalkObject_LeftB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_WalkObject_RightA.bf" animName="WalkObject_RightA" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\TyrannosaurusRex\TyrannosaurusRex_Adult_F_WalkObject_RightB.bf" animName="WalkObject_RightB" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <animation anim="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Adult_F_KO.bf" animName="KO" debug="false" animSpeed="1" explicitUseOnly="false" resolveUnitCollisions="true" groundFitRotation="true" allowSpineBending="false" load="true" yawSpeed="0" pitchSpeed="0" rollSpeed="0" />
+  <Graph name="AlbertosaurusRyu_Adult_F" version="1">
+    <node name="Charge">
+      <table>
+        <Charge_Ahead />
+        <Charge_LeftA />
+        <Charge_LeftB />
+        <Charge_RightA />
+        <Charge_RightB />
+      </table>
+      <edge name="Stalk">
+        <table>
+          <Charge_2Stalk />
+        </table>
+      </edge>
+      <edge name="Run">
+        <table>
+          <Charge_2Run />
+        </table>
+      </edge>
+      <edge name="StalkPause">
+        <table>
+          <Charge_2StalkPause />
+        </table>
+      </edge>
+      <edge name="Stand">
+        <table>
+          <Charge_2Stand />
+        </table>
+      </edge>
+      <edge name="Walk">
+        <table>
+          <Charge_2Walk />
+        </table>
+      </edge>
+    </node>
+    <node name="Crouch">
+      <table>
+        <Crouch_BeLicked />
+        <Crouch_FeedYoung />
+      </table>
+    </node>
+    <node name="Drown">
+      <table>
+        <Drown_Idle />
+      </table>
+      <edge name="Stand">
+        <table>
+          <Drown_2Stand />
+        </table>
+      </edge>
+    </node>
+    <node name="Eat">
+      <table>
+        <Eat_Chew />
+        <Eat_Drink />
+        <Eat_Idle />
+        <Eat_ScratchFood />
+        <Eat_Tear />
+        <Eat_Tug />
+      </table>
+      <edge name="Stand">
+        <table>
+          <Eat_2Stand />
+        </table>
+      </edge>
+    </node>
+    <node name="JawLock">
+      <table>
+        <JawLock_Idle />
+        <JawLock_KnockBack />
+        <JawLock_Push />
+      </table>
+      <edge name="Stand">
+        <table>
+          <JawLock_2Stand />
+        </table>
+      </edge>
+      <edge name="Lie">
+        <table>
+          <JawLock_2Lie />
+        </table>
+      </edge>
+    </node>
+    <node name="Lie">
+      <table>
+        <Lie_Idle />
+        <Lie_Listen />
+        <Lie_Look />
+        <Lie_Sneeze />
+        <Lie_Sniff />
+        <Lie_Yawn />
+      </table>
+      <edge name="Stand">
+        <table>
+          <Lie_2Stand />
+        </table>
+      </edge>
+      <edge name="Sleep">
+        <table>
+          <Lie_2Sleep />
+        </table>
+      </edge>
+    </node>
+    <node name="Run">
+      <table>
+        <Run_Ahead />
+        <Run_LeftA />
+        <Run_LeftB />
+        <Run_RightA />
+        <Run_RightB />
+      </table>
+      <edge name="Stalk">
+        <table>
+          <Run_2Stalk />
+        </table>
+      </edge>
+      <edge name="Stand">
+        <table>
+          <Run_2Stand />
+        </table>
+      </edge>
+      <edge name="StalkPause">
+        <table>
+          <Run_2StalkPause />
+        </table>
+      </edge>
+      <edge name="Walk">
+        <table>
+          <Run_2Walk />
+        </table>
+      </edge>
+      <edge name="Charge">
+        <table>
+          <Run_2Charge />
+        </table>
+      </edge>
+    </node>
+    <node name="Secondary">
+      <table>
+        <Secondary_HandTwitch />
+        <Secondary_Headlook />
+        <Secondary_TailTwitch />
+      </table>
+    </node>
+    <node name="Sleep">
+      <table>
+        <Sleep_Idle />
+      </table>
+      <edge name="Lie">
+        <table>
+          <Sleep_2Lie />
+        </table>
+      </edge>
+    </node>
+    <node name="Stalk">
+      <table>
+        <Stalk_Ahead />
+        <Stalk_Sniff />
+      </table>
+      <edge name="Walk">
+        <table>
+          <Stalk_2Walk />
+        </table>
+      </edge>
+      <edge name="Run">
+        <table>
+          <Stalk_2Run />
+        </table>
+      </edge>
+      <edge name="StalkPause">
+        <table>
+          <Stalk_2StalkPause />
+        </table>
+      </edge>
+      <edge name="Stand">
+        <table>
+          <Stalk_2Stand />
+        </table>
+      </edge>
+      <edge name="Charge">
+        <table>
+          <Stalk_2Charge />
+        </table>
+      </edge>
+    </node>
+    <node name="StalkPause">
+      <table>
+        <StalkPause_Idle />
+        <StalkPause_Idle2 />
+      </table>
+      <edge name="Stalk">
+        <table>
+          <StalkPause_2Stalk />
+        </table>
+      </edge>
+      <edge name="Run">
+        <table>
+          <StalkPause_2Run />
+        </table>
+      </edge>
+      <edge name="Stand">
+        <table>
+          <StalkPause_2Stand />
+        </table>
+      </edge>
+    </node>
+    <node name="Stand">
+      <table>
+        <Stand_BeFed />
+        <Stand_Beg />
+        <Stand_BeLicked />
+        <Stand_Bite />
+        <Stand_BiteLow />
+        <Stand_BiteQuick />
+        <Stand_BiteVicious />
+        <Stand_CallMother />
+        <Stand_CallYoung />
+        <Stand_DustBathe />
+        <Stand_FeedYoung />
+        <Stand_GetShocked />
+        <Stand_GroomAdult />
+        <Stand_GroomOther />
+        <Stand_GroomYoung />
+        <Stand_GrowlA />
+        <Stand_GrowlB />
+        <Stand_GuestAttack />
+        <Stand_HeadSlamLeft />
+        <Stand_HeadSlamRight />
+        <Stand_Idle />
+        <Stand_KickLeft />
+        <Stand_KickRight />
+        <Stand_LayNest />
+        <Stand_LickMom />
+        <Stand_Listen />
+        <Stand_Look />
+        <Stand_MatingCall />
+        <Stand_MouthOther />
+        <Stand_MouthYoung />
+        <Stand_Pee />
+        <Stand_PlayNipA />
+        <Stand_PlayNipB />
+        <Stand_PlayNipHigh />
+        <Stand_Poop />
+        <Stand_Preen />
+        <Stand_RoarA />
+        <Stand_RoarB />
+        <Stand_RubObject />
+        <Stand_RubObjectHead />
+        <Stand_ScratchFace />
+        <Stand_Sneeze />
+        <Stand_Sniff />
+        <Stand_TendNestA />
+        <Stand_TendNestB />
+        <Stand_TurnLeft90 />
+        <Stand_TurnRight180 />
+        <Stand_TurnRight90 />
+        <Stand_Yawn />
+      </table>
+      <edge name="Eat">
+        <table>
+          <Stand_2Eat />
+        </table>
+      </edge>
+      <edge name="StandObject">
+        <table>
+          <Stand_2StandObject />
+        </table>
+      </edge>
+      <edge name="Lie">
+        <table>
+          <Stand_2Lie />
+        </table>
+      </edge>
+      <edge name="Stalk">
+        <table>
+          <Stand_2Stalk />
+        </table>
+      </edge>
+      <edge name="JawLock">
+        <table>
+          <Stand_2JawLock />
+        </table>
+      </edge>
+      <edge name="Walk">
+        <table>
+          <Stand_2Walk />
+        </table>
+      </edge>
+      <edge name="Run">
+        <table>
+          <Stand_2Run />
+        </table>
+      </edge>
+      <edge name="Drown">
+        <table>
+          <Stand_2Drown />
+        </table>
+      </edge>
+      <edge name="Charge">
+        <table>
+          <Stand_2Charge />
+        </table>
+      </edge>
+    </node>
+    <node name="StandObject">
+      <table>
+        <StandObject_Idle />
+        <StandObject_ShakeObject />
+        <StandObject_TurnLeft90 />
+        <StandObject_TurnRight180 />
+        <StandObject_TurnRight90 />
+      </table>
+      <edge name="Stand">
+        <table>
+          <StandObject_2Stand />
+        </table>
+      </edge>
+      <edge name="WalkObject">
+        <table>
+          <StandObject_2WalkObject />
+        </table>
+      </edge>
+    </node>
+    <node name="Walk">
+      <table>
+        <Walk_Ahead />
+        <Walk_BashFence />
+        <Walk_LeftA />
+        <Walk_LeftB />
+        <Walk_RightA />
+        <Walk_RightB />
+      </table>
+      <edge name="Stalk">
+        <table>
+          <Walk_2Stalk />
+        </table>
+      </edge>
+      <edge name="Run">
+        <table>
+          <Walk_2Run />
+        </table>
+      </edge>
+      <edge name="Stand">
+        <table>
+          <Walk_2Stand />
+        </table>
+      </edge>
+      <edge name="Charge">
+        <table>
+          <Walk_2Charge />
+        </table>
+      </edge>
+    </node>
+    <node name="WalkObject">
+      <table>
+        <WalkObject_Ahead />
+        <WalkObject_LeftA />
+        <WalkObject_LeftB />
+        <WalkObject_RightA />
+        <WalkObject_RightB />
+      </table>
+      <edge name="StandObject">
+        <table>
+          <WalkObject_2StandObject />
+        </table>
+      </edge>
+    </node>
+  </Graph>
+</BFM>

@@ -1,0 +1,25 @@
+<BFTypedBinder binderType="AlbertosaurusRyuBackground">
+  <types>
+    <entity>
+      <AlbertosaurusRyuBackground />
+    </entity>
+  </types>
+  <instance>
+    <BFGEntity entityVersion="1">
+    </BFGEntity>
+  </instance>
+  <shared>
+    <BFGCollisionData isPassable="true" />
+    <BFAIEntityDataShared s_Product="Extinct" s_Zoopedia="zoopedia:zoopedia_puzzlepiece:entry" />
+    <ZTDevComponent />
+  </shared>
+  <binder>
+    <BFNamedBinder binderName="mainObj" required="1">
+      <instance>
+        <BFPhysObj allowHighlight="true">
+          <BFSceneGraphComponent modelfile="entities\objects\puzzles\AlbertosaurusRyu\AlbertosaurusRyu" scale="1.0" />
+        </BFPhysObj>
+      </instance>
+    </BFNamedBinder>
+  </binder>
+</BFTypedBinder>

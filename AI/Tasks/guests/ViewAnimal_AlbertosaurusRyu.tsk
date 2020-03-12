@@ -1,0 +1,100 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="CantDonate_AlbertosaurusRyu" CursorTask="false" Priority="1" UniqueID="ViewAnimal_AlbertosaurusRyu:CantDonate_AlbertosaurusRyu">
+      <BFAICreateData>
+         <Subjects>
+            <Guest/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects>
+            <t_DonateAlbertosaurusRyu/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap hunger="-50" thirst="-50" dessert="-50" rest="-50" social="-50" amusement="-50" gift="-50" bathroom="-50" viewanimals="-50"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehAnimate targetAnim="Stand_ScratchHead"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:LookForDonationBox"/>
+               <ZTThoughtInfo locID="guestthoughts:CantFindDonationBox" priority="-1" timeout="60" global="true"/>
+               <ZTEmoticonInfo emoticonName="EmoteGuestDonateBad"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap f_CouldntFindDonationBox="1"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DonateAlbertosaurusRyu" CursorTask="false" reserveTag="Use_DonationBox" Priority="2" UniqueID="ViewAnimal_PDLC1:DonateAlbertosaurusRyu">
+      <BFAICreateData>
+         <Subjects>
+            <Guest/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <b_DonationAcceptor/>
+            <Qualifiers inSight="30"/>
+         </Targets>
+         <Objects>
+            <t_DonateAlbertosaurusRyu/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap hunger="-100" thirst="-100" dessert="-100" rest="-100" social="-100" amusement="-100" gift="-100" bathroom="-100" viewanimals="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:GoToDonate"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock targetAnim="Stand_Idle"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="AlbertosaurusRyuEmote"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="MakeDonation"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap f_DidFindDonationBox="1"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DonateAlbertosaurusRyuDBFull" CursorTask="false" Priority="2" UniqueID="ViewAnimal_PDLC1:DonateAlbertosaurusRyuDBFull">
+      <BFAICreateData>
+         <Subjects>
+            <Guest/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <b_DonationAcceptor/>
+         </Targets>
+         <Objects>
+            <t_DonateAlbertosaurusRyu/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap hunger="-75" thirst="-75" dessert="-75" rest="-75" social="-75" amusement="-75" gift="-75" bathroom="-75" viewanimals="-75"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:DonateMoney"/>
+               <ZTThoughtInfo locID="guestthoughts:DonateMoney" priority="1" timeout="60" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="AlbertosaurusRyuEmote"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehEconomy transactionName="donate"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap f_DidFindDonationBox="1"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

@@ -1,0 +1,100 @@
+﻿<BFTypedBinder binderType="AlbertosaurusRyuNest">
+	<types>
+		<entity>
+			<shelters>
+				<AlbertosaurusRyuNest />
+			</shelters>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity entityVersion="1">
+			<physObjParenting>
+				<parentObj parent="mainObj" child="biomedetail_01" rottype="ignore" postype="use" attachnode="biomedetail_01" />
+			</physObjParenting>
+		</BFGEntity>
+	</instance>
+	<shared>
+		<ZTDevComponent />
+		<ZTPlacementData icon3Doffset="0 0 1" icon3Dscale="0.08" deletable="true" autoFootprint="false">
+			<cfootprint width="3" height="3" />
+			<dfootprint width="4" height="4" />
+		</ZTPlacementData>
+		<BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_dinosaurnest:entry" />
+		<UIToggleButton template="adopt">
+			<UIAspect>
+				<default image="entities\objects\eggs\Dinosaur_Nest\DinosaurNest_icon.dds" />
+			</UIAspect>
+			<UIHelpInfo name="" short="" long="" help="" ids="entityname:AlbertosaurusRyuNest" />
+			<on>
+				<event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbertosaurusRyuNest" />
+			</on>
+		</UIToggleButton>
+		<BFGCollisionData isPassable="true" />
+	</shared>
+	<binder>
+		<BFNamedBinder binderName="mainObj">
+			<instance>
+				<BFPhysObj>
+					<BFRSceneGraphComponent modelfile="entities/objects/eggs/Dinosaur_Nest/Dinosaur_Nest_Empty" scale="0.25" />
+					<BFGroundFitComponent heightOffset="0.0" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="biomedetail_01">
+			<instance>
+				<BFPhysObj>
+					<BFDecorativeDetailObjectComponent lodDistances="5 15 25 35" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFAIEntityDataInstance f_ConstructionLevel="0" />
+			</instance>
+		</BFBinder>
+		<BFNamedBinder binderName="empty" required="0">
+			<instance>
+				<BFPhysObj>
+					<BFRSceneGraphComponent modelfile="entities/objects/eggs/Dinosaur_Nest/Dinosaur_Nest_Empty" scale="0.1875" />
+					<BFGroundFitComponent heightOffset="0.0" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="onethird" required="0">
+			<instance>
+				<BFPhysObj>
+					<BFRSceneGraphComponent modelfile="entities/objects/eggs/Dinosaur_Nest/Dinosaur_Nest_OneThird" scale="0.1875" />
+					<BFGroundFitComponent heightOffset="0.0" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="twothirds" required="0">
+			<instance>
+				<BFPhysObj>
+					<BFRSceneGraphComponent modelfile="entities/objects/eggs/Dinosaur_Nest/Dinosaur_Nest_TwoThirds" scale="0.1875" />
+					<BFGroundFitComponent heightOffset="0.0" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="completed" required="0">
+			<instance>
+				<BFPhysObj>
+					<BFRSceneGraphComponent modelfile="entities/objects/eggs/Dinosaur_Nest/Dinosaur_Nest_Full" scale="0.1875" />
+					<BFGroundFitComponent heightOffset="0.0" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFAIFadeController attribName="f_ConstructionLevel" currState="empty" fadePeriod="1">
+					<stateList>
+						<empty minRange="-101" maxRange="33" />
+						<onethird physObj="onethird" minRange="33" maxRange="66" />
+						<twothirds physObj="twothirds" minRange="66" maxRange="100" />
+						<completed physObj="completed" minRange="100" maxRange="101" />
+					</stateList>
+				</BFAIFadeController>
+			</instance>
+		</BFBinder>
+	</binder>
+</BFTypedBinder>

@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="AlbertosaurusRyu_Young_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Archosauria>
+                  <Saurischia>
+                     <Tyrannosauridae>
+                        <AlbertosaurusRyu>
+                           <AlbertosaurusRyu_Young>
+                              <AlbertosaurusRyu_Young_M/>
+                           </AlbertosaurusRyu_Young>
+                        </AlbertosaurusRyu>
+                     </Tyrannosauridae>
+                  </Saurischia>
+               </Archosauria>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbertosaurusRyu_Young_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>

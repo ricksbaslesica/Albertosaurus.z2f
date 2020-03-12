@@ -1,0 +1,167 @@
+<BFTypedBinder binderType="AlbertosaurusRyu_Young" abstract="true">
+	<types>
+		<entity>
+			<actor>
+				<animal>
+					<Archosauria>
+                  <Saurischia>
+                     <Tyrannosauridae>
+                        <AlbertosaurusRyu>
+                           <AlbertosaurusRyu_Young/>
+                        </AlbertosaurusRyu>
+                     </Tyrannosauridae>
+                  </Saurischia>
+               </Archosauria>
+				</animal>
+			</actor>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity />
+	</instance>
+	<shared>
+		<ZTDevComponent />
+		<BFAIEntityDataShared f_viewBonus="100" b_Adult="0" p_PreyOffset="0 2 0" s_MorphMessage="zoomessages:AnimalHatchEgg" f_MorphMessagePriority="1" f_MorphMessageDuration="30" b_LargePredator="true" p_PredatorOffset="0 -3 0">
+			<BFAINeedAdjusts health="0.25" stimulation="0.33" exercise="0.33" reproduction="0" />
+		</BFAIEntityDataShared>
+	</shared>
+	<binder>
+		<BFNamedBinder binderName="mainObj">
+			<instance>
+				<BFPhysObj>
+					<BFActorComponent actorfile="entities/units/animals/AlbertosaurusRyu/AlbertosaurusRyu_Young_F.bfm" scale="0.375" />
+					<BFDecalTextureCycleComponent materialName="AlbertosaurusRyu_Young_F">
+						<Step imageName="entities/units/animals/shared/tiger_blink_blank.dds" hold="3.0" variance="0.5" />
+						<Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance="" />
+						<Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance="" />
+						<Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance="" />
+					</BFDecalTextureCycleComponent>
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFGCollisionTester escapeBuffer="0.0625" radius=".125" motionClass="mover" waterScore="10" maxSlope=".50" wadeDepth="2" />
+			</instance>
+		</BFBinder>
+		<BFNamedBinder binderName="shadowObj">
+			<instance>
+				<BFPhysObj>
+					<BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\round_blob3.tga" baseNode="Bip01 Spine" width="1" intensity="0.3" />
+				</BFPhysObj>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="texController" required="1">
+			<instance>
+				<BFAITextureController currState="well" defaultState="well">
+					<attribList>
+						<health />
+						<hygiene />
+					</attribList>
+					<stateList>
+						<sickanddirty>
+							<attribData>
+								<health minRange="70" maxRange="101" />
+								<hygiene minRange="70" maxRange="101" />
+							</attribData>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Young_F_Sick_Dirty.dds" />
+							</textureData>
+						</sickanddirty>
+						<sick>
+							<attribData>
+								<health minRange="70" maxRange="101" />
+							</attribData>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Young_F_Sick.dds" />
+							</textureData>
+						</sick>
+						<dirty>
+							<attribData>
+								<hygiene minRange="70" maxRange="101" />
+							</attribData>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Young_F_Dirty.dds" />
+							</textureData>
+						</dirty>
+						<well>
+							<textureData>
+								<mainObj material="AlbertosaurusRyu_Young_F" image="entities\units\animals\AlbertosaurusRyu\AlbertosaurusRyu_Young_F.dds" />
+							</textureData>
+						</well>
+					</stateList>
+				</BFAITextureController>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFAICognitiveMgr>
+					<Sensors>
+						<ZTAISensor />
+						<BFAISensorSelf />
+						<ZTAISensorLand />
+						<ZTAISensorTA sensorTag="habitat" />
+					</Sensors>
+					<StateThinkers>
+						<ZTAIStateThinker mergeKey="Name">
+							<BFAIStateVar Name="reproduction" Value="" ValueMin="0" ValueMax="0" CessationThreshold="90" TriggerThreshold="90" CriticalThreshold="90" Advanced="true" />
+						</ZTAIStateThinker>
+					</StateThinkers>
+					<TaskThinkers>
+						<ZTAITaskThinker />
+					</TaskThinkers>
+				</BFAICognitiveMgr>
+			</instance>
+			<shared>
+				<BFAICogShared>
+					<BFAINoPerceive>
+						<fence />
+						<path />
+						<entrance />
+					</BFAINoPerceive>
+				</BFAICogShared>
+			</shared>
+		</BFBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFLocomotionMgr />
+			</instance>
+			<binder>
+				<BFNamedBinder binderName="ground" required="1">
+					<instance>
+						<BFLocoAnimate version="1">
+							<stop name="Stand" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<slow name="Walk" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<medium name="Walk" minAnimSpeed="1.4" maxAnimSpeed="1.7" />
+							<fast name="Run" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<stalk name="Stalk" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<evade name="Run" minAnimSpeed="1.2" maxAnimSpeed="1.8" />
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+				<BFNamedBinder binderName="groundcarry" required="1">
+					<instance>
+						<BFLocoAnimate version="1" stationaryAnim="StandObject_Idle">
+							<stop name="StandObject" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<slow name="WalkObject" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<medium name="WalkObject" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+							<fast name="WalkObject" minAnimSpeed="1.2" maxAnimSpeed="1.2" />
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+			</binder>
+		</BFBinder>
+		<BFNamedBinder binderName="checkup" required="1">
+			<instance>
+				<ZTAIStaffRequestController attribName="health" thresholdValue="30" testType="4" cancelThresholdValue="20" cancelTestType="1">
+					<ZTStaffRequestData tokenKey="t_CheckupBaby" subjectType="Keeper" priority="5" />
+				</ZTAIStaffRequestController>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFAIEntityDataInstance f_needPointsGood="50" />
+			</instance>
+		</BFBinder>
+	</binder>
+</BFTypedBinder>

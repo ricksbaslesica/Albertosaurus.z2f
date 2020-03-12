@@ -1,0 +1,77 @@
+<BFTypedBinder binderType="AlbertosaurusRyuNest_Egg_VanillaH">
+   <types>
+      <entity>
+          <egg>
+              <AlbertosaurusRyuNest_Egg_VanillaH/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 1" icon3Dscale="0.08" moveable="false"/>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\eggs\Dinosaur_Nest\DinosaurNest_icon.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:AlbertosaurusRyuNest_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbertosaurusRyuNest_Egg"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_Species="AlbertosaurusRyu" s_Zoopedia="zoopedia:zoopedia_AlbertosaurusRyu:entry"/>
+	<BFGBiomeData location="tropicalrainforest_cretaceous_northamerica" locationSensitivity="10">
+			<alpine sensitivity="-5" />
+			<borealforest sensitivity="10" primary="true" />
+			<coastal sensitivity="10" />
+			<desert sensitivity="-10" />
+			<grassland sensitivity="0" />
+			<temperateforest sensitivity="0" />
+			<tropicalrainforest sensitivity="0" />
+			<tundra sensitivity="-10" />
+			<savannah sensitivity="-5" />
+			<scrub sensitivity="0" />
+			<wetlands sensitivity="0" />
+	</BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+				<BFActorComponent actorfile="entities/objects/eggs/Dinosaur_Nest/Dinosaur_Nest_Full_Actor.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="0.1875"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+	<BFBinder required="1">
+		<instance>
+			<BFAICognitiveMgr>
+				<Sensors>
+					<ZTAISensor />
+					<BFAISensorSelf />
+				</Sensors>
+				<StateThinkers>
+					<ZTAIStateThinker>
+						<BFAIStateVar Name="incubation" Value="" ValueMin=".0075" ValueMax="" CessationThreshold="0" DisplayThreshold="0" PressingThreshold="1.60" TriggerThreshold="1.60" CriticalThreshold="1.60" Advanced="true" />
+					</ZTAIStateThinker>
+				</StateThinkers>
+				<TaskThinkers>
+					<ZTAITaskThinker />
+				</TaskThinkers>
+			</BFAICognitiveMgr>
+		</instance>
+		<shared>
+			<BFAICogShared>
+				<BFAINoPerceive>
+					<fence />
+					<path />
+					<entrance />
+				</BFAINoPerceive>
+			</BFAICogShared>
+		</shared>
+	</BFBinder>
+   </binder>
+</BFTypedBinder>

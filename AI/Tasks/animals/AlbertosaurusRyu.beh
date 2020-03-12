@@ -1,0 +1,2610 @@
+<BehaviorSets>
+<!-- Begin Default Behaviors Section -->
+<!-- Begin Default Behavior Branches -->
+   <Default_Happy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Pos_2">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalHappy" priority="0" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultLie weight="25"/>
+               <DefaultHappy weight="75"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_Happy>
+   <Default_VeryHappy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="DPos_4">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalVeryHappy" priority="1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultLie weight="10"/>
+               <DefaultHappy weight="90"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_VeryHappy>
+   <Default_Happy_inWater>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Pos_2">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalHappy" priority="0" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultStand weight="90"/>
+               <Default_inWater_Happy weight="10"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_Happy_inWater>
+   <Default_VeryHappy_inWater>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="DPos_4">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalVeryHappy" priority="1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultStand weight="80"/>
+               <Default_inWater_Happy weight="20"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_VeryHappy_inWater>
+   <Default_Unhappy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Neg_2">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalUnhappy" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultLie weight="25"/>
+               <DefaultUnhappy weight="75"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_Unhappy>
+   <Default_VeryUnhappy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Neg_3">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalVeryUnhappy" priority="2" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultLie weight="10"/>
+               <DefaultUnhappy weight="90"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_VeryUnhappy>
+   <Default_Unhappy_inWater>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Neg_2">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalUnhappy" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultStand weight="90"/>
+               <Default_inWater_Unhappy weight="10"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_Unhappy_inWater>
+   <Default_VeryUnhappy_inWater>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Neg_3">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalVeryUnhappy" priority="2" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultStand weight="80"/>
+               <Default_inWater_Unhappy weight="20"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_VeryUnhappy_inWater>
+<!-- End Default Behavior Branches -->
+<!-- Begin Default Behavior Leaves -->
+   <DefaultStand>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Standing"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DefaultStand>
+   <DefaultLie>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:LyingDown"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Lie_Idle"/>
+      </behaviors>
+   </DefaultLie>
+   <DefaultHappy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultScratch weight="28"/>
+               <DefaultListen weight="26"/>
+               <DefaultGrowl weight="26"/>
+               <DefaultWander weight="20"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </DefaultHappy>
+   <DefaultScratch>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ScratchingSelf"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_ScratchFace"/>
+      </behaviors>
+   </DefaultScratch>
+   <DefaultGrowl>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GrowlHappy"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehRandomSet>
+            <randomSets>
+               <Growl weight="90"/>
+               <Roar weight="10"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </DefaultGrowl>
+   <DefaultListen>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Listening"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Listen"/>
+      </behaviors>
+   </DefaultListen>
+   <DefaultWander>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:WalkingAround"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehWander playTime="20" locoSpeed="medium"/>
+      </behaviors>
+   </DefaultWander>
+   <Default_inWater_Happy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <DefaultScratch weight="33"/>
+               <DefaultListen weight="33"/>
+               <DefaultGrowl weight="33"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Default_inWater_Happy>
+   <DefaultUnhappy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GrowlAngry"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Growl"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAngry"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </DefaultUnhappy>
+   <Default_inWater_Unhappy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GrowlAngry"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Roar"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAngry"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </Default_inWater_Unhappy>
+<!-- End Default Behavior Leaves -->
+<!-- End Default Behaviors Section -->
+   <Idle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="DefaultStand"/>
+      </behaviors>
+   </Idle>
+   <Think>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Listen"/>
+      </behaviors>
+   </Think>
+   <LookAt>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Idle weight="50"/>
+               <Investigate weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </LookAt>
+   <Investigate>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToLookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Mouth" targetRadius="3"/>
+         <ZTBehViewEvent viewKey="Pos_2"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:LookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehFaceTarget/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </Investigate>
+   <InvestigateLarge>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToLookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehMove pathRadius="10" closestApproach="true"/>
+         <ZTBehViewEvent viewKey="Pos_2"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:LookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehFaceTarget/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </InvestigateLarge>
+   <Die_OldAge>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Dying"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useEntityName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_OldAge>
+   <Die_Sick>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Dying_Sick"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedSickBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTMessageInfo locID="zoomessages:AnimalDiedSick" priority="-1" timeout="60" global="true" useEntityName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_Sick>
+   <Die_Fight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+	 <ZTBehMorph morphEntity="subject" morphTargetEntityType="Carcass_Meat" NameIt="true"/>
+      </behaviors>
+   </Die_Fight>
+   <Die_Drown>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+	 <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_Drown>   
+   <Stand>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Standing"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand>
+   <Lie>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:LyingDown"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Lie_Idle" playTime="12"/>
+      </behaviors>
+   </Lie>
+   <Sleep>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Sleep_Idle" playTime="20"/>
+      </behaviors>
+   </Sleep>
+   <Rest>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Idle" playTime="12"/>
+      </behaviors>
+   </Rest>
+   <Lie_Idle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Idle" interruptFlag="true"/>
+      </behaviors>
+   </Lie_Idle>
+   <Listen>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Stand behSet="StandListen"/>
+               <Lie behSet="LieListen"/>
+               <default behSet="StandListen"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Listen>
+   <StandListen>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Listen"/>
+      </behaviors>
+   </StandListen>
+   <LieListen>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Listen"/>
+      </behaviors>
+   </LieListen>
+   <FailureSet>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehLocoSwitchSet>
+            <behaviorTable>
+               <ground behSet="Ground_Failure"/>
+               <water behSet="Water_Failure"/>
+            </behaviorTable>
+         </BFBehLocoSwitchSet>
+      </behaviors>
+   </FailureSet>
+   <Ground_Failure>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Stand behSet="Growl"/>
+               <StandObject behSet="StandObject"/>
+               <default behSet="Growl"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Ground_Failure>
+   <Water_Failure>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Swim behSet="TreadWater"/>
+               <TreadWater behSet="TreadWater"/>
+               <TreadWaterObject behSet="TreadWaterObject"/>
+               <default behSet="TreadWater"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Water_Failure>
+   <StandObject>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="StandObject_Idle"/>
+      </behaviors>
+   </StandObject>
+   <TreadWaterObject>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="TreadWater_Idle"/>
+      </behaviors>
+   </TreadWaterObject>
+   <TreadWaterObject>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="TreadWaterObject_Idle"/>
+      </behaviors>
+   </TreadWaterObject>
+   <LookLeftRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Stand behSet="Stand_LookLeftRight"/>
+               <Sit behSet="Sit_LookLeftRight"/>
+               <Lie behSet="Lie_LookLeftRight"/>
+               <default behSet="Sit_LookLeftRight"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </LookLeftRight>
+   <Stand_LookLeftRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="1" maxPlays="3">
+            <randomAnims>
+               <Stand_LookLeft weight="50"/>
+               <Stand_LookRight weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Stand_LookLeftRight>
+   <Sit_LookLeftRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="1" maxPlays="3">
+            <randomAnims>
+               <Sit_LookLeft weight="50"/>
+               <Sit_LookRight weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Sit_LookLeftRight>
+   <Lie_LookLeftRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="1" maxPlays="3">
+            <randomAnims>
+               <Lie_LookLeft weight="50"/>
+               <Lie_LookRight weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Lie_LookLeftRight>
+   <Poop>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSpawn spawnEntity="Poop_Dino" subjectNode="Poop" targetAnim="Stand_Poop"/>
+      </behaviors>
+   </Poop>
+   <Poop_Sick>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSpawn spawnEntity="Poop_Dino_Sick" subjectNode="Poop" targetAnim="Stand_Poop"/>
+      </behaviors>
+   </Poop_Sick>
+   <Pee>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Pee"/>
+      </behaviors>
+   </Pee>
+   <GroomSelf>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_ScratchFace" playTime="5"/>
+      </behaviors>
+   </GroomSelf>
+   <Sniff>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Stand behSet="Stand_Sniff"/>
+               <Stalk behSet="Stalk_Sniff"/>
+               <Lie behSet="Lie_Sniff"/>
+               <default behSet="Stand_Sniff"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Sniff>
+   <Stand_Sniff>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sniff"/>
+      </behaviors>
+   </Stand_Sniff>
+   <Stalk_Sniff>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stalk_Sniff"/>
+      </behaviors>
+   </Stalk_Sniff>
+   <Lie_Sniff>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Sniff"/>
+      </behaviors>
+   </Lie_Sniff>
+   <Sneeze>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Stand behSet="Stand_Sneeze"/>
+               <Lie behSet="Lie_Sneeze"/>
+               <default behSet="Stand_Sneeze"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Sneeze>
+   <Stand_Sneeze>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sneeze"/>
+      </behaviors>
+   </Stand_Sneeze>
+   <Lie_Sneeze>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Sneeze"/>
+      </behaviors>
+   </Lie_Sneeze>
+   <EatLarge>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_ScratchFood"/>
+         <BFBehRandomSet>
+            <randomSets>
+               <Eat_Idle weight="34"/>
+               <Eat_Tug weight="33"/>
+               <Eat_Tear weight="33"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </EatLarge>
+   <EatFoodDish_Empty>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sniff"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_FoodLevel="-100"/>
+         </BFBehSetAttribute>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+      </behaviors>
+   </EatFoodDish_Empty>  
+   <EatFoodDish_Destroy>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sniff"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+         <BFBehSetAttribute>
+            <BFAISubjectData hunger="-60"/>
+         </BFBehSetAttribute>
+         <BFBehKill killTarget="true" fadeOutPeriod="5"/>
+      </behaviors>
+   </EatFoodDish_Destroy>  
+   <Eat>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sniff"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+      </behaviors>
+   </Eat>  
+   <Eat_Idle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_dinoprop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+      </behaviors>
+   </Eat_Idle>  
+   <Eat_Tug>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_dinoprop" targetAnim="Eat_Tug" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+      </behaviors>
+   </Eat_Tug>  
+   <Eat_Tear>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_dinoprop" targetAnim="Eat_Tear" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+      </behaviors>
+   </Eat_Tear>  
+   <Chew>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Chew"/>
+      </behaviors>   
+   </Chew>
+   <EnterTrough>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Eat" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterTrough> 
+   <UseTrough>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_FoodLevel="-15"/>
+         </BFBehSetAttribute>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem" detachBehSet="Chew" container="foodprop"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_FoodLevel="-15"/>
+         </BFBehSetAttribute>
+      </behaviors>
+   </UseTrough>
+   <DrinkTrough>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_FoodLevel="-15"/>
+         </BFBehSetAttribute>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_FoodLevel="-15"/>
+         </BFBehSetAttribute>
+      </behaviors>
+   </DrinkTrough>
+   <ExitTrough>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight90"/>
+      </behaviors>
+   </ExitTrough>
+   <Drink>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+      </behaviors>
+   </Drink>
+   <EnterFoodDish>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Dock_FoodDish" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterFoodDish> 
+   <UseFoodDish>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Eat"/>
+      </behaviors>
+   </UseFoodDish>
+   <UseFoodDish_Destroy>
+      <subjects>
+         <AlbertosaurusRyu_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <EatFoodDish_Destroy weight="50"/>
+               <EatFoodDish_Empty weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </UseFoodDish_Destroy>
+   <UseFoodDish_Destroy>
+      <subjects>
+         <AlbertosaurusRyu_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <EatFoodDish_Destroy weight="13"/>
+               <EatFoodDish_Empty weight="87"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </UseFoodDish_Destroy>
+   <DrinkFoodDish>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_FoodLevel="-100"/>
+         </BFBehSetAttribute>
+      </behaviors>
+   </DrinkFoodDish>
+   <ExitFoodDish>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitFoodDish>
+   <EnterBeefShank>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock targetAnim="Stand_Idle" subjectNode="Node_Mouth"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterBeefShank> 
+   <UseBeefShank>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Eat"/>
+      </behaviors>
+   </UseBeefShank>
+   <ExitBeefShank>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitBeefShank>
+   <EnterLiveFood>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock targetAnim="Stand_Idle" subjectNode="Node_Mouth"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterLiveFood> 
+   <UseLiveFood>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sniff"/>
+         <BFBehAnimate targetAnim="Eat_Idle"/>
+      </behaviors>
+   </UseLiveFood>
+   <ExitLiveFood>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitLiveFood>
+   <EnterIceBlock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock targetAnim="Stand_Idle" subjectNode="Node_Mouth"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterIceBlock> 
+   <UseIceBlock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Eat"/>
+      </behaviors>
+   </UseIceBlock>
+   <ExitIceBlock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitIceBlock>
+   <EnterBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="p_PursuitBallNode" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterBall>
+   <GrabBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Carry" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </GrabBall>
+   <PickUpBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject targetNode="Dock_Pickup" targetAnim="Stand_2StandObject" locoMod="carry" detachAction="dropitem"/>
+      </behaviors>
+   </PickUpBall>
+   <DropObject>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="StandObject_ShakeObject"/>
+         <BFBehAnimate targetAnim="StandObject_2Stand"/>
+      </behaviors>
+   </DropObject>
+   <UsePursuitBall_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick_Whap"/>
+      </behaviors>
+   </UsePursuitBall_Whap>
+   <UseCarTire_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick_Whap"/>
+      </behaviors>
+   </UseCarTire_Whap>
+   <UseBarrel_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick_Whap"/>
+      </behaviors>
+   </UseBarrel_Whap>
+   <UseBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick"/>
+      </behaviors>
+   </UseBall>
+   <UseBall_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick_Whap"/>
+      </behaviors>
+   </UseBall_Whap>
+   <PlayBone>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Sniff"/>
+      </behaviors>
+   </PlayBone>
+   <GrabBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Carry" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </GrabBall>
+   <GrabShank>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Carry" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </GrabShank>
+   <PickUpBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject targetNode="Dock_Pickup" targetAnim="Stand_2StandObject" locoMod="carry" detachAction="dropitem"/>
+      </behaviors>
+   </PickUpBall>
+   <ExitBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitBall>
+   <PlayBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick"/>
+      </behaviors>
+   </PlayBall>
+   <Bite>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Bite"/>
+      </behaviors>
+   </Bite>
+   <Bite_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="Stand_Bite"/>
+      </behaviors>
+   </Bite_Whap>
+   <DropObject>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehLocoSwitchSet>
+            <behaviorTable>
+               <groundcarry behSet="DropObject_Ground"/>
+            </behaviorTable>
+         </BFBehLocoSwitchSet>
+      </behaviors>
+   </DropObject>
+   <DropObject_Ground>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="StandObject_2Stand"/>
+      </behaviors>
+   </DropObject_Ground>
+   <DockFight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="p_FightOffset" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockFight>
+   <WaitFight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitFight>
+   <DockPlayFight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToPlayFight" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="p_FightOffset" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockPlayFight>
+   <WaitPlayFight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToPlayFight" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitPlayFight>
+   <HitMed>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Growl"/>
+      </behaviors>
+   </HitMed>
+   <HitMedDie>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Growl"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Killed"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalKilledBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTMessageInfo locID="zoomessages:AnimalAttacked" priority="-1" timeout="60" global="true" useEntityName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>         
+	 <ZTBehMorph morphEntity="subject" morphTargetEntityType="Carcass_Meat" NameIt="true"/>
+      </behaviors>
+   </HitMedDie>
+   <HitMediumEqual>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <HitMed weight="75"/>
+               <HitMedDie weight="25"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </HitMediumEqual>
+   <BiteMed>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_Bite weight="20"/>
+               <Stand_BiteLow weight="20"/>
+               <Stand_KickLeft weight="30"/>
+               <Stand_KickRight weight="30"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_Bite weight="20"/>
+               <Stand_BiteLow weight="20"/>
+               <Stand_KickLeft weight="30"/>
+               <Stand_KickRight weight="30"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </BiteMed>
+   <SwipeMed>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_Bite weight="20"/>
+               <Stand_BiteLow weight="20"/>
+               <Stand_KickLeft weight="30"/>
+               <Stand_KickRight weight="30"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_Bite weight="20"/>
+               <Stand_BiteLow weight="20"/>
+               <Stand_KickLeft weight="30"/>
+               <Stand_KickRight weight="30"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </SwipeMed>
+   <BitMed>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Growl"/>
+      </behaviors>
+   </BitMed>
+   <BitMedDie>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Growl"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Killed"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalKilledBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTMessageInfo locID="zoomessages:AnimalAttacked" priority="-1" timeout="60" global="true" useEntityName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>         
+	 <ZTBehMorph morphEntity="subject" morphTargetEntityType="Carcass_Meat" NameIt="true"/>
+      </behaviors>
+   </BitMedDie>
+   <BitMediumEqual>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <BitMed weight="75"/>
+               <BitMedDie weight="25"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </BitMediumEqual>
+   <Kick>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <KickLeft weight="50"/>
+               <KickRight weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Kick>
+   <Kick_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <KickLeft_Whap weight="50"/>
+               <KickRight_Whap weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Kick_Whap>
+   <KickLeft>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_KickLeft"/>
+      </behaviors>
+   </KickLeft>
+   <KickLeft_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="Stand_KickLeft"/>
+      </behaviors>
+   </KickLeft_Whap>
+   <KickRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_KickRight"/>
+      </behaviors>
+   </KickRight>
+   <KickRight_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="Stand_KickRight"/>
+      </behaviors>
+   </KickRight_Whap>
+   <Roar>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_RoarA weight="40"/>
+               <Stand_RoarB weight="40"/>
+               <Stand_MatingCall weight="20"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Roar>
+   <RoarCallPackYoung>
+      <subjects>
+         <AlbertosaurusRyu_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="RoarCallPackYoung"/>
+      </behaviors>
+   </RoarCallPackYoung>
+   <Growl>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_GrowlA weight="50"/>
+               <Stand_GrowlB weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Growl>
+   <SubmissiveGreeting>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Growl"/>
+      </behaviors>
+   </SubmissiveGreeting>
+   <DominanceGreeting>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Roar"/>
+      </behaviors>
+   </DominanceGreeting>
+   <TurnRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight90"/>
+      </behaviors>
+   </TurnRight>
+   <Stand_Idle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate interruptFlag="true" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand_Idle>
+   <TreadWater_Idle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate interruptFlag="true" targetAnim="TreadWater_Idle"/>
+      </behaviors>
+   </TreadWater_Idle>
+   <WaitAttack>
+      <subjects>
+         <AlbertosaurusRyu_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_BiteLow" loopFlag="true"/>
+      </behaviors>
+   </WaitAttack>
+   <AttackMed>
+      <subjects>
+         <AlbertosaurusRyu_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_Bite weight="25"/>
+               <Stand_BiteLow weight="10"/>
+               <Stand_BiteQuick weight="10"/>
+               <Stand_BiteVicious weight="5"/>
+               <Stand_KickLeft weight="15"/>
+               <Stand_KickRight weight="15"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </AttackMed>
+   <ChasePrey>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="ChasePreyDock" targetBehSet="LoopIdle" resetPhase="true"/>
+      </behaviors>
+   </ChasePrey>
+   <ChasePreyDock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehDock subjectNode="p_PredatorOffset" targetNode="p_PreyOffset" locoSpeed="stalk"/>
+      </behaviors>
+   </ChasePreyDock>
+   <TeachChase>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPursuit hitRadius="20" pursuitRadius="40" locoSpeed="stalk"/>
+         <BFBehAnimate targetAnim="StalkPause_Idle" playTime="3"/>
+      </behaviors>
+   </TeachChase>
+   <MissPrey>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTActionInfo locID="animalactions:RoarAngry"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_RoarA weight="15"/>
+               <Stand_RoarB weight="15"/>
+               <Stand_GrowlA weight="35"/>
+               <Stand_GrowlB weight="35"/>
+            </randomAnims>
+         </BFBehAnimateRandom>         
+      </behaviors>
+   </MissPrey>
+   <AttackPrey>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Kick"/>
+         <BFBehPlaySet behSet="Kick"/>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_Bite weight="40"/>
+               <Stand_BiteLow weight="20"/>
+               <Stand_BiteQuick weight="20"/>
+               <Stand_KickLeft weight="10"/>
+               <Stand_KickRight weight="10"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehAnimate targetAnim="Stand_BiteVicious" interruptFlag="true" loopFlag="true"/>
+      </behaviors>
+   </AttackPrey>
+   <AttackPrey_Swallow>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+	 <BFBehKill killTarget="true" fadeOutPeriod="4"/>
+	 <BFBehAnimate targetAnim="Stand_BiteVicious" interruptFlag="true"/>
+	 <BFBehSetAttribute>
+	    <BFAISubjectData hunger="-100"/>
+	 </BFBehSetAttribute>
+	 <BFBehAnimate targetAnim="Eat_Idle"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTMessageInfo locID="zoomessages:AnimalAttacked" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </AttackPrey_Swallow>
+   <DockAttacked>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehScript context="behavior" file="scripts/playparticle.lua" function="playParticle" params="{Floor} runps PlacementCloud"/>
+         <BFBehDockNow targetNode="p_PredatorOffset" subjectNode="p_PreyOffset" reserveSlotName="general"/>
+      </behaviors>
+   </DockAttacked>
+   <Attacked>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Sleep_Idle"/>
+         <BFBehPlaySet behSet="Die_Fight"/>
+      </behaviors>
+   </Attacked>
+   <EnterExtinctShelter1>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingRestShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockTAP targetAnim="Walk_Ahead" subjectNode="Floor" targetTAP="Bip01_DockNode01_EnterA"/>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode01_EnterA" exitTap="false"/>
+      </behaviors>
+   </EnterExtinctShelter1>
+   <EnterExtinctShelter2>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingRestShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockTAP targetAnim="Walk_Ahead" subjectNode="Floor" targetTAP="Bip01_DockNode03_EnterB"/>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode03_EnterB" exitTap="false"/>
+      </behaviors>
+   </EnterExtinctShelter2>
+   <UseExtinctShelter>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:RestingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Sleep_Idle" playTime="20"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </UseExtinctShelter>
+   <ExitExtinctShelter1>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ExitingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode02_ExitA" exitTAP="true"/>
+      </behaviors>
+   </ExitExtinctShelter1>
+   <ExitExtinctShelter2>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ExitingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode04_ExitB" exitTAP="true"/>
+      </behaviors>
+   </ExitExtinctShelter2>
+   <EnterShadeStructure>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingRestUnder" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockRadial subjectNode="Floor" targetRadius="3" rotError="180"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterShadeStructure> 
+   <UseShadeStructure>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:RestingUnder" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Lie_Idle" playTime="20"/>
+      </behaviors>
+   </UseShadeStructure>
+   <ExitShadeStructure>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ExitingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitShadeStructure>
+   <Mate>
+      <subjects>
+         <AlbertosaurusRyu_Adult/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Mating" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Sleep_Idle" playTime="10"/>
+      </behaviors>
+   </Mate>   
+   <StartNest>
+      <subjects>
+         <AlbertosaurusRyu_Adult_F/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="SpawnNest"/>
+      </behaviors>
+   </StartNest>
+   <SpawnNest>
+      <subjects>
+         <AlbertosaurusRyu_Adult_F/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_LayNest"/>
+         <BFBehSpawn spawnEntity="AlbertosaurusRyuNest" subjectNode="Floor" fadeInPeriod="1" randomPosOffset="1" spawnInTA="true"/>
+      </behaviors>
+   </SpawnNest>
+   <BuildAlbertosaurusRyuNest>
+      <subjects>
+         <AlbertosaurusRyu_Adult_F/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToBuildNest"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Floor" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BuildingNest"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_TendNestA weight="50"/>
+               <Stand_TendNestB weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehSetAttribute>
+            <BFAITargetData f_ConstructionLevel="34"/>
+         </BFBehSetAttribute>
+      </behaviors>
+   </BuildAlbertosaurusRyuNest>
+   <FinishAlbertosaurusRyuNest>
+      <subjects>
+         <AlbertosaurusRyu_Adult_F/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToFinishNest"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Floor" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:FinishingNest" />
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_TendNestA weight="50"/>
+               <Stand_TendNestB weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehKill killTarget="true" fadeOutPeriod="1"/>
+         <BFBehSpawn spawnEntity="AlbertosaurusRyuNest_Egg" spawnRelation="child" subjectNode="Floor" fadeInPeriod="1" randomPosOffset="1" spawnInTA="true"/>
+         <BFBehScript context="behavior" file="scripts/justgavebirth.lua" function="justgavebirth"/>
+      </behaviors>
+   </FinishAlbertosaurusRyuNest>
+   <FinishAlbertosaurusRyuNest>
+      <subjects>
+         <AlbertosaurusRyu_Adult_F_Super/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToFinishNest"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Floor" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:FinishingNest" />
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_TendNestA weight="50"/>
+               <Stand_TendNestB weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehKill killTarget="true" fadeOutPeriod="1"/>
+         <BFBehSpawn spawnEntity="AlbertosaurusRyuNest_Egg_Super" spawnRelation="child" subjectNode="Floor" fadeInPeriod="1" randomPosOffset="1" spawnInTA="true"/>
+         <BFBehScript context="behavior" file="scripts/justgavebirth.lua" function="justgavebirth"/>
+      </behaviors>
+   </FinishAlbertosaurusRyuNest>
+   <HatchEgg>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" playTime="3"/>
+         <BFBehRandomSet minPlays="1" maxPlays="1">
+            <randomSets>
+               <SpawnF weight="50"/>
+               <SpawnM weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </HatchEgg>
+   <HatchEgg>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg_Super/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" playTime="3"/>
+         <BFBehRandomSet minPlays="1" maxPlays="1">
+            <randomSets>
+               <SpawnSuperF weight="50"/>
+               <SpawnSuperM weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </HatchEgg>
+   <IdleEgg>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg/>
+         <AlbertosaurusRyuNest_Egg_Super/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </IdleEgg>
+   <SpawnF>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg/>
+      </subjects>
+      <behaviors>
+         <ZTBehMorph morphEntity="AlbertosaurusRyuNest_Egg" morphTargetEntityType="AlbertosaurusRyu_Young_F" morphPeriod="2"/>
+         <BFBehKill killSubject="true"/>
+      </behaviors>
+   </SpawnF>
+   <SpawnM>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg/>
+      </subjects>
+      <behaviors>
+         <ZTBehMorph morphEntity="AlbertosaurusRyuNest_Egg" morphTargetEntityType="AlbertosaurusRyu_Young_M" morphPeriod="2"/>
+         <BFBehKill killSubject="true"/>
+      </behaviors>
+   </SpawnM>
+   <SpawnSuperF>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg_Super/>
+      </subjects>
+      <behaviors>
+         <ZTBehMorph morphEntity="AlbertosaurusRyuNest_Egg_Super" morphTargetEntityType="AlbertosaurusRyu_Young_F_Super" morphPeriod="2"/>
+         <BFBehKill killSubject="true"/>
+      </behaviors>
+   </SpawnSuperF>
+   <SpawnSuperM>
+      <subjects>
+         <AlbertosaurusRyuNest_Egg_Super/>
+      </subjects>
+      <behaviors>
+         <ZTBehMorph morphEntity="AlbertosaurusRyuNest_Egg_Super" morphTargetEntityType="AlbertosaurusRyu_Young_M_Super" morphPeriod="2"/>
+         <BFBehKill killSubject="true"/>
+      </behaviors>
+   </SpawnSuperM>
+   <ThrashWater>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Drown_Idle" interruptFlag="true"/>
+      </behaviors>
+   </ThrashWater>
+   <Sick>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Sneeze"/>
+      </behaviors>
+   </Sick>
+   <VerySick>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Sleep_Idle" playTime="30"/>
+      </behaviors>
+   </VerySick>
+   <MatingCall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:MatingCallAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_MatingCall"/>
+      </behaviors>
+   </MatingCall>
+   <MatingCallAggressive>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_MatingCall"/>
+      </behaviors>
+   </MatingCallAggressive>
+   <DockAttackGuest>
+      <subjects>
+         <AlbertosaurusRyu_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehDockRadial subjectNode="p_AttackGuestNode" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockAttackGuest>
+   <AttackGuest>
+      <subjects>
+         <AlbertosaurusRyu_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_GuestAttack" interruptFlag="true"/>
+      </behaviors>
+   </AttackGuest>
+   <ChaseBall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToPlayWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="p_PursuitBallNode" targetAnim="Stand_Idle" locoSpeed="fast"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:PlayingWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Kick_Whap"/>
+         <ZTBehViewEvent viewKey="Pos_7">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalPlayObjectGood" priority="2" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+      </behaviors>
+   </ChaseBall>
+   <FeedMother>
+      <subjects>
+         <AlbertosaurusRyu_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BeingFed" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_BeFed" playTime="8"/>
+         <BFBehAnimate targetAnim="Stand_LickMom" playTime="5"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerGood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </FeedMother>
+   <DockFeedMother>
+      <subjects>
+         <AlbertosaurusRyu_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToFeed" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="p_FeedYoungNode" targetAnim="Stand_Idle" locoSpeed="fast"/>
+      </behaviors>
+   </DockFeedMother>
+   <WaitFeedYoung>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:WaitingToFeedYoung" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitFeedYoung>
+   <FeedYoung>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:FeedYoung" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_FeedYoung" loopFlag="true"/>
+         <BFBehAnimate targetAnim="Stand_BeLicked" loopFlag="true"/>
+      </behaviors>
+   </FeedYoung>
+   <CallMother>
+      <subjects>
+         <AlbertosaurusRyu_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:CallingTo" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_CallMother" playTime="20"/>
+      </behaviors>
+   </CallMother>
+   <CallMother2>
+      <subjects>
+         <AlbertosaurusRyu_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:CallingTo" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_CallMother" playTime="15"/>
+      </behaviors>
+   </CallMother2>
+   <InterspeciesTerritorialCall>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GrowlAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_4">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalCallGood" priority="0" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehPlaySet behSet="Growl"/>
+      </behaviors>
+   </InterspeciesTerritorialCall>
+   <Wake>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Roar weight="50"/>
+               <Growl weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Wake>
+   <EnterRockMarkScent1>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToMarkScent" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDock targetAnim="Stand_Idle" subjectNode="p_ScentMarkNode"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterRockMarkScent1>
+   <ScentMark>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:MarkingScent" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_3">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalMarkScentGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehPlaySet behSet="RubObject"/>
+      </behaviors>
+   </ScentMark>
+   <ExitRockMarkScent1>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Walk_Ahead"/>
+      </behaviors>
+   </ExitRockMarkScent1>
+   <EnterRockSniff1>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToSniff" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDock targetAnim="Stand_Idle" subjectNode="Node_Mouth"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterRockSniff1>
+   <SniffRock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewEvent viewKey="Pos_2"/>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalStimulationGood"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTActionInfo locID="animalactions:SniffOther" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sniff"/>
+      </behaviors>
+   </SniffRock>
+   <ExitRockSniff1>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </ExitRockSniff1>
+   <DockGreet>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="Node_Mouth" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockGreet>
+   <WaitGreet>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitGreet>
+   <SmashFence>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehKill targetAnim="Walk_BashFence" killTarget="true" radius="5" radiusKillType="fence" fadeOutPeriod="1" killUsingDestroyEntity="true"/>
+      </behaviors>
+   </SmashFence>
+   <EnterBuilding>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehDock subjectNode="Dock_Building" targetAnim="Stand_Idle" locoSpeed="slow"/>
+      </behaviors>
+   </EnterBuilding>
+   <DestroyBuilding>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <KickLeftDestroyBuilding weight="50"/>
+               <KickRightDestroyBuilding weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </DestroyBuilding>
+   <KickLeftDestroyBuilding>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehKill targetAnim="Stand_KickLeft" killTarget="true" fadeOutPeriod="1" killUsingDestroyEntity="true"/>
+      </behaviors>
+   </KickLeftDestroyBuilding>
+   <KickRightDestroyBuilding>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehKill targetAnim="Stand_KickRight" killTarget="true" fadeOutPeriod="1" killUsingDestroyEntity="true"/>
+      </behaviors>
+   </KickRightDestroyBuilding>
+   <SniffFence>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_GetShocked"/>
+      </behaviors>
+   </SniffFence>
+   <EnterPoleRopeFeeder>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="p_FenceClimbUnderNode" targetNode="Dock_Swipe" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterPoleRopeFeeder>
+   <UsePoleRopeFeeder_Eat>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="2" maxPlays="4">
+            <randomAnims>
+               <Stand_Bite weight="80"/>
+               <Stand_Sniff weight="20"/>
+            </randomAnims>
+         </BFBehAnimateRandom>      
+      </behaviors>
+   </UsePoleRopeFeeder_Eat>   
+   <EnterPoleRope>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="p_FenceClimbUnderNode" targetNode="Dock_Swipe" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterPoleRope> 
+   <UsePoleRope>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Bite"/>
+      </behaviors>
+   </UsePoleRope>
+   <UsePoleRope_Whap>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Bite_Whap"/>
+      </behaviors>
+   </UsePoleRope_Whap>
+   <ExitPoleRope>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight90"/>
+      </behaviors>
+   </ExitPoleRope>
+   <Turn180>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight180"/>
+      </behaviors>
+   </Turn180>
+   <LoopIdle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet loopFlag="true">
+            <behaviorTable>
+               <Stand behSet="LoopStand"/>
+               <Lie behSet="LoopLie"/>
+               <Sleep behSet="LoopSleep"/>
+               <default behSet="LoopStand"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </LoopIdle>
+   <LoopStand>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </LoopStand>
+   <LoopLie>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Idle" loopFlag="true"/>
+      </behaviors>
+   </LoopLie>
+   <LoopSleep>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Sleep_Idle" loopFlag="true"/>
+      </behaviors>
+   </LoopSleep>
+   <DockJawLock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToFight" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock subjectNode="p_JawLock" targetNode="p_JawLock" targetAnim="Stand_2JawLock" reserveSlotName="general" redock="true"/>
+      </behaviors>
+   </DockJawLock>
+   <WaitJawLock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToFight" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitJawLock>
+   <JawLockWin>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="EnterJawLock" targetBehSet="EnterJawLock" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockPush" targetBehSet="JawLockDef" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockIdle" targetBehSet="JawLockIdle" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockDef" targetBehSet="JawLockPush" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockIdle" targetBehSet="JawLockIdle" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockPush" targetBehSet="JawLockDef" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="ExitJawLock_Stand" targetBehSet="ExitJawLock_Lie" resetPhase="true"/>
+      </behaviors>
+   </JawLockWin>   
+   <JawLockLose>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="EnterJawLock" targetBehSet="EnterJawLock" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockDef" targetBehSet="JawLockPush" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockIdle" targetBehSet="JawLockIdle" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockPush" targetBehSet="JawLockDef" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockIdle" targetBehSet="JawLockIdle" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="JawLockDef" targetBehSet="JawLockPush" resetPhase="true"/>
+         <BFBehSyncSet subjectBehSet="ExitJawLock_Lie" targetBehSet="ExitJawLock_Stand" resetPhase="true"/>
+      </behaviors>
+   </JawLockLose>   
+   <EnterJawLock>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_2JawLock"/>
+      </behaviors>
+   </EnterJawLock>
+   <JawLockIdle>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="JawLock_Idle"/>
+      </behaviors>
+   </JawLockIdle>
+   <JawLockPush>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="JawLock_Push"/>
+      </behaviors>
+   </JawLockPush>
+   <JawLockDef>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="JawLock_KnockBack"/>
+      </behaviors>
+   </JawLockDef>
+   <ExitJawLock_Stand>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="JawLock_2Stand"/>
+      </behaviors>
+   </ExitJawLock_Stand>
+   <ExitJawLock_Lie>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="JawLock_2LieSide"/>
+      </behaviors>
+   </ExitJawLock_Lie>
+   <EnterDinoPreyRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="p_DinoPreyNode" targetNode="Hit_Right" targetAnim="Stand_Idle" locoSpeed="fast"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterDinoPreyRight> 
+   <EnterDinoPreyLeft>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="p_DinoPreyNode" targetNode="Hit_Left" targetAnim="Stand_Idle" locoSpeed="fast"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterDinoPreyLeft> 
+   <UseDinoPreyRight>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="Kick" targetBehSet="Hit_Right"/>
+      </behaviors>
+   </UseDinoPreyRight>
+   <UseDinoPreyLeft>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="Kick" targetBehSet="Hit_Left"/>
+      </behaviors>
+   </UseDinoPreyLeft>
+   <ExitDinoPrey>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnRight90"/>
+      </behaviors>
+   </ExitDinoPrey>
+   <TranquilizedRampage>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet>
+            <behaviorTable>
+               <Stand behSet="TranquilizedRampage_Land"/>
+               <Drown behSet="TranquilizedRampage_Water"/>
+               <default behSet="TranquilizedRampage_Land"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </TranquilizedRampage>
+   <TranquilizedRampage_Land>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BeingTranquilized" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_RoarC">
+	    <textkeys>
+	      <tranquilize text="{Node_Eat} runpeff diseased_sleepy attach nocull"/>
+	    </textkeys>
+         </BFBehAnimate>
+         <BFBehAnimate targetAnim="Stand_2Lie"/>
+         <BFBehAnimate targetAnim="Lie_2Sleep">
+	    <textkeys>
+	      <tranquilize text="{Node_Eat} runpeff diseased_sleepy stop nocull"/>
+	    </textkeys>
+         </BFBehAnimate>
+         <BFBehAnimate targetAnim="Sleep_Idle"/>
+         <ZTBehViewEvent viewKey="Pos_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalTranquilizedGood" priority="1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Sleeping"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+      </behaviors>
+   </TranquilizedRampage_Land>
+   <TranquilizedRampage_Water>
+      <subjects>
+         <AlbertosaurusRyu/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BeingTranquilized" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Drown_Idle">
+	    <textkeys>
+	      <tranquilize text="{Node_Eat} runpeff diseased_sleepy attach nocull"/>
+	    </textkeys>
+         </BFBehAnimate>
+         <BFBehAnimate targetAnim="Drown_Idle" playTime="5"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Drowning"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Drown_Idle">
+	    <textkeys>
+	      <tranquilize text="{Node_Eat} runpeff diseased_sleepy stop nocull"/>
+	    </textkeys>
+         </BFBehAnimate>
+         <BFBehAnimate targetAnim="Drown_Idle" playTime="15"/>
+      </behaviors>
+   </TranquilizedRampage_Water>
+</BehaviorSets>
